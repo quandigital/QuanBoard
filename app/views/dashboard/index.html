@@ -1,0 +1,13 @@
+{% extends '../layout/layout.html' %}
+{% block title %}Dashboard{% endblock %}
+{% block head %}
+    <script src="/js/dashboard.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/dashboard.css">
+{% endblock %}
+{% block body %}
+{% for position,data in widgets %}
+<div class="widget" data-widget="{{data.widget|escape}}" data-component="{{data.component|escape}}">
+    {{data.text|escape}}: {{data.component|escape}}
+</div>
+{% endfor %}
+{% endblock %}

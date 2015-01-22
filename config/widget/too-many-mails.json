@@ -1,0 +1,14 @@
+{
+  "description 1": {
+    "connection": {
+      "url": "url 1",
+      "username": "user 1",
+      "password": "password 1"
+    },
+    "check": {
+      "folder": "folder 1",
+      "days": 3,
+      "limit": 10
+    }
+  }
+}

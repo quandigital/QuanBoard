@@ -1,0 +1,11 @@
+{
+  "description 1": {
+    "connection": {
+      "host": "host address 1",
+      "user": "user 1",
+      "password": "password 1",
+      "database": "database 1"
+    },
+    "query": "query for check 1"
+  }
+}

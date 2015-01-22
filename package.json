@@ -1,0 +1,21 @@
+{
+  "name": "dashboard",
+  "description": "Dashboard for System Health Status",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "~0.8.0",
+    "body-parser": "~1.10.0",
+    "connect-mongo": "~0.6.0",
+    "express": "~4.9.0",
+    "express-session": "~1.9.0",
+    "glob": "~4.3.0",
+    "mysql": "~2.5.0",
+    "mongoose": "~3.8.0",
+    "node-curl": "~0.3.0",
+    "ping": "~0.1.0",
+    "ssh2-connect": "~0.0.0",
+    "ssh2-exec": "~0.2.0",
+    "superstack": "~0.0.0",
+    "swig": "~1.4.0"
+  }
+}

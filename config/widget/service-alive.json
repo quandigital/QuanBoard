@@ -1,0 +1,24 @@
+{
+  "description 1": {
+    "connection": {
+      "host": "host address 1",
+      "username": "user 1",
+      "password": "password"
+    },
+    "check": {
+      "command": "command 1",
+      "expectation": "regex 1"
+    }
+  },
+  "description 2": {
+    "connection": {
+      "host": "host address 2",
+      "username": "user 2",
+      "ssh_key": "key file"
+    },
+    "check": {
+      "command": "command 1",
+      "expectation": "regex 1"
+    }
+  }
+}

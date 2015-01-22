@@ -1,0 +1,11 @@
+<div>Available Widgets</div>
+<form method="post" action="/widgets">
+    {% for widget,components in widgets %}
+        <div>{{widget}}</div>
+        <ul>
+        {% for component in components %}
+            <li><label><input type="checkbox" name="widgets[{{widget}}][{{component.name}}]" {% if component.checked %}checked="checked"{% endif %} data-text="{{component.text}}" />{{component.name}}</label></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</form>

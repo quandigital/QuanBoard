@@ -1,0 +1,23 @@
+.widget {
+    border: 1px solid;
+    margin: 10px;
+    max-width: 500px;
+    position: relative;
+    min-height: 20px;
+}
+
+.widget.status-good {
+    background-color: lightgreen;
+}
+
+.widget.status-error {
+    background-color: lightyellow;
+}
+
+.widget.status-bad {
+    background-color: palevioletred;
+}
+
+.widget .load-error {
+    background-color: palevioletred;
+}

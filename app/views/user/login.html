@@ -1,0 +1,12 @@
+{% extends '../layout/layout.html' %}
+{% block title %}Login{% endblock %}
+{% block body %}
+{% if wrongLogin %}
+<div><b>Wrong Login</b></div>
+{% endif %}
+<form method="post">
+<input type="text" placeholder="User" name="user[username]" />
+<input type="password" placeholder="Password" name="user[password]" />
+<input type="submit" />
+</form>
+{% endblock %}

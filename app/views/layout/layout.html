@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}{% endblock %}</title>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/bower_components/spin.js/spin.js"></script>
+    <script src="/bower_components/spin.js/jquery.spin.js"></script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+<header>
+    <h1>{% block title %}{% endblock %}</h1>
+    {% block header %}{% endblock %}
+    <nav>
+        <ul>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/user/logout">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+<section role="main">
+    {% block body %}{% endblock %}
+</section>
+</body>
+</html>
